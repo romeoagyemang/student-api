@@ -140,7 +140,7 @@ class StudentController extends Controller
             $student->delete();
             return response()->json([
                 'status' => 201,
-                'message' => "No such Student Found!"
+                'message' => "Student Deleted Successfully!"
             ]);
         } else {
            return response()->json([
